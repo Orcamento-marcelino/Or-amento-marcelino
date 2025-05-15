@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Orçamento Marcelino</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0ff; /* azul clarinho */
+    margin: 0;
+    padding: 0;
+    color: #003366; /* azul escuro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  header {
+    background-color: #0059b3; /* azul */
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  .contact-button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  .contact-button:hover {
+    background-color: #005bb5;
+  }
+  footer {
+    background-color: #003366;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+  <header>Orçamento Marcelino</header>
+  <main>
+    <p>Quer fazer seu orçamento? Entre em contato com a Construtora Marcelino!</p>
+    <a 
+      class="contact-button" 
+      href="https://wa.me/5521983349225?text=Ol%C3%A1%2C%20quero%20fazer%20um%20or%C3%A7amento" 
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Contato via WhatsApp
+    </a>
+  </main>
+  <footer>
+    © 2025 Construtora Marcelino - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
